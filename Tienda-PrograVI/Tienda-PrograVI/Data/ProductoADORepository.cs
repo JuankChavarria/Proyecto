@@ -7,7 +7,7 @@ namespace Tienda_PrograVI.Data
 {
     public class ProductoADORepository
     {
-        private readonly string _connectionString = "Server=JUANK\\UNIVERSIDAD;Database=Test08052025;Trusted_Connection=True;TrustServerCertificate=True;";
+        private readonly string _connectionString = "Server=.;Database=TIenda_Ropa;User Id=sa;Password=Alejandra25;TrustServerCertificate=True;";
         public List<Producto> GetAll()
         {
             var lista = new List<Producto>();
