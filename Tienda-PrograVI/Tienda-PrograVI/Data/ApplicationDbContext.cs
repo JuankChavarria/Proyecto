@@ -9,5 +9,6 @@ namespace Tienda_PrograVI.Data
         {
         }
         public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Producto> Producto{ get; set; }
     }
 }
