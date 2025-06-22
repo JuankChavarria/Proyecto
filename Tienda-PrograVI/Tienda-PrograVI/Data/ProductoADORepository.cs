@@ -13,7 +13,7 @@ namespace Tienda_PrograVI.Data
             var lista = new List<Producto>();
             using (SqlConnection conn = new SqlConnection(_connectionString))
             {
-                SqlCommand cmd = new SqlCommand("ListarPedidos", conn);
+                SqlCommand cmd = new SqlCommand("ListarPruducto", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
